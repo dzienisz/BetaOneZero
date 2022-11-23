@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-};
+	reactStrictMode: false,
+	compiler: {
+		// Enables the styled-components SWC transform
+		styledComponents: true,
+	},
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
