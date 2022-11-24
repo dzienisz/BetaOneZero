@@ -5,6 +5,7 @@
     "baseUrl": ".",
     "target": "es5",
     "lib": [
+      "es6",
       "dom",
       "dom.iterable",
       "esnext"
@@ -17,9 +18,9 @@
     "module": "esnext",
     "strict": true,
     "alwaysStrict": true,
-    "strictNullChecks": false,
+    "strictNullChecks": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
     "moduleResolution": "node",
