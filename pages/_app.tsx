@@ -3,11 +3,12 @@ import ResetCSS from 'ResetCSS'
 
 const config: Config = {
 	readOnlyChainId: Polygon.chainId,
+	//@ts-ignore
 	readOnlyUrls: {
 		[Polygon.chainId]: Polygon.rpcUrl,
 	},
 }
-
+//@ts-ignore
 function MyApp({Component, pageProps}) {
 	return (
 		<DAppProvider config={config}>
